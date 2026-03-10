@@ -1,0 +1,44 @@
+git 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    height: 80px;
+    background-color: beige; 
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;      /* Letras maiúsculas para impor respeito */
+  letter-spacing: 1px;
+}
+
+.nav_links {
+display: flex;       /* Faz os <li> ficarem um ao lado do outro */
+  list-style: none;    /* Remove as bolinhas da lista */
+  gap: 20px;           /* Cria o espaçamento entre eles */
+  margin: 0;
+  padding: 0;                     /* Espaçamento entre Sobre, Hobby e Contato */
+}
+
+.nav_links li a {
+  text-decoration: none;          /* Remove o sublinhado dos links */
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.3s;               /* Suaviza a animação ao passar o mouse */
+}
+
+/* Efeito de destaque ao passar o mouse */
+.nav_links li a:hover {
+  color: #1a1a1a;                 /* Muda para preto, estilo "tático" */
+}
